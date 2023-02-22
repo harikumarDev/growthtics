@@ -84,7 +84,7 @@
   font-size: 24px;
   line-height: 1.79em;
   color: #000;
-  padding-bottom: 55px;
+  padding-bottom: 45px;
 }
 .coming-soon-content form {
   max-width: 670px;
@@ -308,6 +308,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
 }
 .feedback-form {
   display: flex;
@@ -356,6 +357,7 @@
   border-radius: 5px;
   outline: none;
   resize: none;
+  font-family: "Red Hat Display", sans-serif;
 }
 .feedback-form button {
   padding: 0.4rem;
@@ -365,15 +367,19 @@
   outline: none;
   border: none;
   background-color: #882bff;
+  font-family: "Red Hat Display", sans-serif;
   color: #fff;
   cursor: pointer;
 }
 .copyright {
   text-align: center;
   border-top: 1px solid #ccc;
-  padding-top: 1.3rem;
+  padding: 1.5rem 0;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.1em;
+}
+.copyright > span {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {

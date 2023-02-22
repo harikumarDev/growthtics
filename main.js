@@ -16,9 +16,11 @@ const submitFeedback = (e) => {
     .then((res) => res.json())
     .then((data) => {
       alert("Feedback submitted successfully!");
+      form.reset();
     })
     .catch((err) => {
       console.log(err);
+      alert("Something went wrong!");
     });
 };
 
